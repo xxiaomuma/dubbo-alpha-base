@@ -13,6 +13,12 @@
     <packaging>pom</packaging>
     <modules>
         <module>web-base-common</module>
+        <module>web-base-web</module>
+        <module>web-base-thirdparty</module>
+        <module>web-base-support</module>
+        <module>web-base-rpc</module>
+        <module>web-base-example</module>
+        <module>web-base-security</module>
     </modules>
 
     <properties>
