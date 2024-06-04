@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="dubbo-alpha-base" />
+          <option value="dubbo-alpha-base" />
+          <option value="dubbo-alpha-base" />
+          <option value="dubbo-alpha-base" />
+          <option value="dubbo-alpha-base" />
+          <option value="dubbo-alpha-base" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="com.alibaba:hessian-lite:3.2.13" />
+          <option value="io.netty:netty-all:4.1.50.Final" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.yaml:snakeyaml:1.26" />
+          <option value="org.springframework:spring-beans:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-core:5.2.7.RELEASE" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Other" />
+          <option value="Fixed in branch" />
+          <option value="Fixed in branch" />
+          <option value="Fixed in branch" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
