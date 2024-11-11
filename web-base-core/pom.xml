@@ -6,8 +6,9 @@
         <artifactId>dubbo-alpha-base</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>web-base-starter</artifactId>
+    <artifactId>web-base-core</artifactId>
     <version>${revision}</version>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -15,14 +16,10 @@
     <dependencies>
         <dependency>
             <groupId>web-base</groupId>
-            <artifactId>web-base-core</artifactId>
+            <artifactId>web-base-common</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>web-base</groupId>
-            <artifactId>web-base-web</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
 
+
+    </dependencies>
 </project>
