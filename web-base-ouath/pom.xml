@@ -6,9 +6,9 @@
         <artifactId>dubbo-alpha-base</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>web-base-security</artifactId>
+    <artifactId>web-base-ouath</artifactId>
+    <packaging>pom</packaging>
 
-    <dependencies>
-
-    </dependencies>
+    <properties>
+    </properties>
 </project>
